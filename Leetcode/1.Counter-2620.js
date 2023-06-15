@@ -7,14 +7,11 @@
 var createCounter = function (n) {
   // Declare a variable 'count' and initialize it with the initial value 'n'
   let count = n;
-
   return function counter() {
     // Store the current value of 'count' in a variable 'currentCount'
     const currentCount = count;
-
     // Increment 'count' by 1 to prepare for the next call
     count++;
-
     // Return the stored 'currentCount'
     return currentCount;
   };

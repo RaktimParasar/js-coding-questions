@@ -23,7 +23,7 @@ var createCounter = function (init) {
   };
 };
 
-const counter = createCounter(5);
+const counter = createCounter(4);
 console.log(`Increment: ${counter.increment()}`);
 console.log(`Reset: ${counter.reset()}`);
 console.log(`Decrement: ${counter.decrement()}`);
